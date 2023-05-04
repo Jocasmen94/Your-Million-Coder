@@ -1,0 +1,237 @@
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+
+}
+.first-container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.plants{
+    /* font-family: 'Archivo Black', sans-serif; */
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px solid black;
+}
+.navbar{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3rem 3rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu > li{
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px solid black;
+}
+.menu > li:hover{
+    color: rgb(193, 255, 210);
+}
+.headline{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 3px 3px 3px solid black;
+}
+.headline > h1{
+    font-size: 8rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+.headline > p{
+    font-size: 1.2rem;
+    letter-spacing:.3rem;
+    margin-left: 20rem;
+    margin-top: -1.5rem;
+}
+.second-container{
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(0, 58, 0); */
+}
+.items{
+    display: flex;
+    width: 25rem;
+    height: 12rem;
+    /* border-radius: 1rem; */
+    box-shadow: 1px 1px 12px rgba(57, 57, 57, 0.243);
+    overflow: hidden;
+    background-color: rgb(226, 255, 226);
+    margin: 1rem 2rem;
+}
+.rating{
+   display: flex; 
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   padding-left: 2rem;
+
+}
+.rating > p{
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    font-weight: bold;
+    color: gray;
+}
+.rating > h3{
+    font-size: 1.5rem;
+    color: rgb(67, 67, 67);
+}
+.rating > b{
+    font-size: 1.8rem;
+    color: gray;
+    border-bottom: 6px solid rgb(107, 201, 107);
+}
+.item-img{
+    width: 9rem;
+    height: 12rem;
+    background-position: center;
+    overflow: hidden;
+}
+.star{
+    width: 5rem;
+    margin-top: -1.5rem;
+}
+.third-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+}
+.left{
+    width: 40rem;
+    height: 40rem;
+    /* border: 1px solid rgb(215, 215, 215); */
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 4rem;
+    box-shadow: 6px 6px rgb(110, 219, 110);
+
+}
+.sub{
+    color: gray;
+    font-family: monospace;
+    font-size: 1rem;
+}
+.paragraph{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.details{
+    letter-spacing: 2px;
+    color: gray;
+    font-size: .9rem;
+}
+.six-img{
+    width: 30rem;
+    height: 40rem;
+    margin: 1rem 4rem;
+    box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.207);
+
+}
+.forth-container{
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    margin-top: 3rem;
+    
+}
+.bg-news{
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+    background-size: cover;
+    overflow: hidden;
+}
+.email{
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: .3rem;
+    position: absolute;
+    top: 9rem;
+    left:13.5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+email > h2{
+    font-family: sans-serif;
+    margin-bottom: .5rem;
+}
+.email > p{
+    font-size: .9rem;
+    margin-bottom: 1.7rem;
+    color: rgb(215, 215, 215);
+}
+input{
+    padding: .5rem 3rem .5rem 1rem;
+    border-radius: .3rem;
+    width: 20rem;
+    font-size: 1.1rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+button{
+    padding: .7rem 2rem;
+    background-color: green;
+    color: white;
+    font-family: sans-serif; 
+    border: none;
+    border-radius: .3rem;
+}
+.footer{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(0, 60, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer > p{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.733);
+}
