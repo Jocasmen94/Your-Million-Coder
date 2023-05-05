@@ -1,0 +1,14 @@
+Hotel California - Eagles
+Comfortably Numb - Pink Floyd
+Stairway to Heaven - Led Zeppelin
+Bohemian Rhapsody - Queen
+
+
+
+fonts
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+font-family: 'Oswald', sans-serif;
