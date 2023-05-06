@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-container{
+    width: 500px;
+    height: 600px;
+    /* border: 2px solid green; */
+    margin: 12rem 9rem;
+    padding-left: 5rem;
+
+}
+.container-one{
+
+}
+.title{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.4rem;
+    /* margin-top: 1rem; */
+}
+.title > span{
+    color: red;
+    margin-left: -9px;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: .7rem;
+    color: rgb(66, 66, 66);
+    margin-bottom: 1.78rem;
+
+}
+.subtitle > span{
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+
+}
+.login{
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-bottom: .6rem;
+}
+.sublogin{
+    font-size: .95rem;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1.2rem;
+}
+.container-two{
+
+}
+.google{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border: 2px solid rgba(128, 128, 128, 0.722);
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.google >img{
+    width: 1.2rem;
+    margin-right: 12px;
+}
+.google > span{
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+}
+.or-email{
+    font-size: .8rem;
+    font-weight: 700;
+    color: gray;
+    word-spacing: 1px;
+    margin: 1.5rem;
+    margin-left: 6rem;
+}
+
+input{
+    width: 320px;
+    height: 45px;
+    border: 2px solid rgba(128, 128, 128, 0.722);
+    border-radius: 6px;
+    margin-bottom: 1.2rem;
+    padding: 0rem 1rem;
+
+}
+input:focus{
+    outline: 2px solid rgb(0, 102, 255);
+    border: none;
+}
+.login-sub{
+    width: 320px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.forgot-pass{
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
+    border-bottom: 1.5px solid black;
+    width: 118px;
+    margin: .5rem 0rem 1.6rem 12.5rem;
+    cursor: pointer;
+}
+
+.not-reg{
+    font-size: .87rem;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.1rem;
+}
+.looking{
+    font-size: .75rem;
+    margin-left: 1.5rem;
+}
+.looking > span{
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+    border-bottom: 1.6px solid black;
+}
+.not-reg > span{
+    font-size: .95rem;
+    border-bottom: 1.7px solid black;
+}
+.right-container{
+    width: 900px;
+    height: 100vh;
+    /* border: 2px solid rgb(217, 147, 7); */
+    
+}
+.cover{
+    width: 900px;
+    height: 480px;
+    background-size: cover;
+    object-fit: cover;
+}
+.made-for{
+    text-align: center;
+    width: 230px;
+    font-size: 2.5rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+}
+.browse{
+    text-align: center;
+    font-size: .9rem;
+    width: 280px;
+    margin-left: 18rem;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
