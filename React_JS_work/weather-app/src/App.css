@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, white, rgb(255, 106, 0));
+}
+.mobile
+{
+  width: 340px;
+  height: 650px;
+  border: 9px solid rgba(39, 39, 39, 0.914);
+  border-radius: 2.2rem;
+  position: absolute;
+  /* left: 5rem;
+  top: 2.5rem; */
+  left: 40%;
+  top: 10%;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.one-l{
+  width: 2rem;
+  cursor: pointer;
+}
+.place{
+  padding-left: 2rem;
+  margin-top: .2rem;
+}
+.title{
+  font-size: 2.5rem;
+  color: rgb(27, 27, 27);
+  line-height: 2.3rem;
+  margin-bottom: 1rem;
+
+}
+.subtitle{
+  font-size: .9rem;
+  margin-left: 1rem;
+  color: rgb(85, 85, 85);
+}
+.temp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+.rainyday{
+  width: 6rem;
+  margin-right: 2rem;
+}
+.deg{
+  font-size: 4rem;
+  font-weight: 400;
+  color: rgb(56, 56, 56);
+}
+.report{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item{
+  width: 300px;
+  height: 55px;
+  background-color: rgba(255, 255, 255, 0.643);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .6rem;
+  padding: 1rem 1rem;
+  border-radius: 9px;
+  /* box-shadow: 1px 1px 3px 3px rgba(183, 183, 183, 0.364); */
+  cursor: pointer;
+  transition-duration: .2s;
+}
+.item:hover{
+  transform: scale(1.03);
+}
+.item > img{
+  width: 2.1rem;
+}
+.item >p{
+  font-size: .9rem;
+  color: rgb(67, 67, 67);
+}
+.day{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .5rem 1rem;
+  font-size: .8rem;
+  font-weight: bold;
+  color: rgb(47, 47, 47);
+}
+.cast{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+.news{
+  width: 60px;
+  height: 90px;
+  border-radius: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.597);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .1s;
+}
+.news:hover{
+  transform: scale(1.09);
+}
+.news > p{
+  font-size: .7rem;
+  color: rgba(78, 78, 78, 0.865);
+  font-weight: bold;
+}
+.news > img{
+  width: 2rem;
+  margin: 3px 0px;
+}
