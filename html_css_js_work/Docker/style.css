@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(0, 43, 143);
+}
+.one-container{
+    /* border: 2px solid red; */
+    padding: 0rem 3rem 0rem 3rem ;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 1rem;
+    filter: invert(1);
+    margin-right: 9px;
+}
+.sign-in{
+
+}
+.started{
+    padding: .8rem 1.6rem;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    /* font-weight: bold; */
+    margin-left: 3rem;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.started:hover{
+    transform: scale(0.95);
+    background-color: rgba(255, 255, 255, 0.195);
+}
+.left
+{
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12rem;
+}
+.menu{
+    text-decoration: none;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.menu:hover{
+    opacity: .8;
+}
+.doc{
+    width: 5rem;
+    filter: invert(1);
+}
+
+.dock{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.8rem;
+    width: 90px;
+    line-height: 1.4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.dock > span{
+    font-size: .9rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 3rem;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+.dock > span:hover{
+    opacity: .7;
+}
+.two-container{
+    width: 100%;
+    /* margin-top: 6rem; */
+    margin-top: 10rem;
+}
+.dev{
+    font-size: 5rem;
+    text-align: center;
+}
+.dev > span{
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+.sub{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.download{
+    width: 420px;
+    height: 90px;
+    background-color: rgb(0, 119, 255);
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: rgba(0, 119, 255, 0.733);
+
+}
+.window{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window > img{
+    width: 1.5rem;
+    margin-right: .5rem;
+    filter: invert(1);
+}
+.window > span{
+    font-size: 1rem;
+}
+.dw{
+    font-size: 1.2rem;
+    margin-bottom: .6rem;
+    font-weight: 700;
+}
+.available{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 500px;
+}
+.os{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    cursor: pointer;
+    opacity: .8;
+    
+}
+.os > img{
+    width: 2rem;
+    filter: invert(1);
+    margin-right: 6px;
+}
+.os > span{
+
+}
