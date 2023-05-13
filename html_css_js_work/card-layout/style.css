@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 560px;
+    height: 220px;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(255, 236, 236, 0.395);
+    box-shadow: 1px 1px 6px -2px rgba(255, 255, 255, 0.246);
+}
+.card-left{
+    /* border: 2px solid red; */
+    width: 350px;
+    padding: 2rem;
+}
+.heading{
+    color: rgba(56, 56, 56, 0.799);
+}
+.para{
+    font-size: .9rem;
+    text-align: justify;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    color: gray;
+}
+.btn{
+    padding: .8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    border: 1.2px solid gray;
+    border-radius: 9px;
+    margin-top: .5rem;
+    cursor: pointer;
+    color: rgb(63, 63, 63);
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.photo{
+    width: 170px;
+    height: 210px;
+    border-radius: 1.5rem;
+    /* overflow: hidden; */
+    /* object-fit: contain; */
+    background-size: cover;
+    margin-top: -3rem;
+    margin-right: -1rem;
+    box-shadow: 1px 1px 6px 2px rgb(59, 59, 59);
+
+}
+.one{
+    margin-left: 9rem;
+}
+.two{
+    margin-right: 9rem;
+}
+.three{
+    margin-left: 9rem;
+}
+.four{
+    margin-right: 9rem;
+}
