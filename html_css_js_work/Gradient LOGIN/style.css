@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./image/bg1.jpg);
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 1200px;
+    height: 700px;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 9px 6px rgba(48, 48, 48, 0.156);
+}
+.left{
+    width: 600px;
+    height: 700px;
+    background: url(./image/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.right{
+    width: 600px;
+    height: 700px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+h1{
+    text-align: left;
+    width: 400px;
+    margin-bottom: 1.5rem;
+    font-size: 2.3rem;
+    color: rgb(39, 39, 39);
+}
+input{
+    width: 400px;
+    padding: 1rem 0rem;
+    margin: .7rem;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(139, 50, 255);
+}
+input::placeholder{
+    font-size: 1rem;
+}
+button{
+    width: 400px;
+    padding: 1.2rem;
+    border: none;
+    outline: none;
+    margin: .7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+button:hover{
+    transform: scale(0.96);
+}
+.continue{
+    background: linear-gradient(to right,
+    rgb(85, 0, 255), rgb(148, 86, 255));
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    
+}
+p{
+    margin-bottom: 1.3rem;
+    color: gray;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+    background: linear-gradient(to right,
+    rgb(0, 128, 255), rgb(118, 182, 255));
+    color: white;
+}
+.twitter > img{
+    width: 1.4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    filter: invert(1);
+
+}
+.fb{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+    background: linear-gradient(to right,
+    rgb(0, 76, 255), rgb(97, 121, 255));
+    color: white;
+}
+.fb > img{
+    width: 1.4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    filter: invert(1);
+
+}
+.left{
+    position: relative;
+}
+.one{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem 2rem;
+}
+.first{
+    width: 4.5rem;
+    filter: invert(1);
+}
+.second{
+    width: 4rem;
+    filter: invert(1);
+    margin-left: -3rem;
+}
+span{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0rem 1rem;
+    font-weight: bold;
+}
+.two{
+    width: 600px;
+    margin-top: 12rem;
+}
+.welcome{
+    color: white;
+    text-align: center;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+.access{
+    color: rgba(255, 255, 255, 0.721);
+    margin-left: 10rem;
+    font-size: 1.2rem;
+
+}
+.three{
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+}
+.www{
+    color: white;
+    font-size: 1.2rem;
+}
