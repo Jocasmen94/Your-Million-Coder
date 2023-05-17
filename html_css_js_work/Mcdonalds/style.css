@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+}
+.card{
+    /* border: 2px solid white; */
+    width: 400px; 
+    height: 600px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 1.2rem;
+    margin: auto;
+    outline: 6px solid rgba(255, 255, 255, 0.304);
+    padding-top: 2rem;
+    /* background: linear-gradie
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.one > img{
+    width: 6rem;
+    border-radius: 50%;
+    outline: 5px solid rgba(128, 128, 128, 0.525);
+}
+.one > h2{
+    opacity: .8;
+    margin-top: 1.5rem;
+}
+.one > p{
+    color: gray;
+}
+.two {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+}
+.two > h2{
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+}
+.two > p{
+    font-size: .9rem;
+    text-align: justify;
+    color: rgb(64, 64, 64);
+}
+.three{
+    padding-left:2rem;
+}
+.three > img{
+    width: 1.5rem;
+    opacity: .6;
+    margin-right: 1.8rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.three > img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+button{
+    /* padding: 1rem 1.5rem; */
+    width: 120px;
+    height: 45px;
+    margin: .4rem;
+    border: none;
+    font-weight: bold;
+    font-size: .7rem;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+    animation-duration: .2s;
+    border-radius: 4px;
+    /* background-color: transparent;
+    border: 3px solid white; */
+}
+button:hover{
+    box-shadow: 0px 0px 6px 1px rgba(128, 128, 128, 0.249);
+}
