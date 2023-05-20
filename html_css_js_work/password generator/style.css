@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.container {
+  /* background-color: rgb(89, 0, 190); */
+  background: linear-gradient(to bottom right, rgb(215, 0, 140), rgb(255, 203, 235));
+  color: white;
+  width: 600px;
+  height: 700px;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 3.2rem;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+h1 > span{
+    color: rgb(49, 49, 49);
+  font-family: "Archivo Black", sans-serif;
+    
+}
+.one {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: rgb(62, 62, 62);
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.7rem;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 2px rgba(103, 103, 103, 0.242);
+}
+.btn:active {
+  background-color: rgb(208, 208, 208);
+}
+/* .btn:hover{
+    background-color: rgb(255, 227, 176);
+} */
+.two {
+  color: rgb(234, 234, 234);
+}
+.new-container {
+  border: 2px solid rgba(255, 255, 255, 0.729);
+  background-color: rgba(255, 255, 255, 0.525);
+  width: 500px;
+  height: 150px;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.left,
+.right {
+  padding: 1rem 2rem;
+  width: 250px;
+  height: 60px;
+  background-color: rgb(41, 41, 41);
+  margin: 6px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 6px;
+}
